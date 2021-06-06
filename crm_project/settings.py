@@ -23,9 +23,9 @@ BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 SECRET_KEY = '5c85#13t-%udpi+uhk+229_hjz+t_psjdy^ck!h*t63568s!c6'
 
 # SECURITY WARNING: don't run with debug turned on in production!
-DEBUG = True
+DEBUG = False
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = ['mg-django-test-app.herokuapp.com', '127.0.0.1:8000']
 
 
 # Application definition
@@ -135,20 +135,20 @@ EMAIL_BACKEND = 'django.core.mail.backends.smtp.EmailBackend'
 EMAIL_HOST = 'smtp.gmail.com'
 EMAIL_PORT = 587
 EMAIL_USE_TLS = True
-EMAIL_HOST_USER = 'ghezta.mukul@gmail.com'
-EMAIL_HOST_PASSWORD = 'ilgmailQ1@'
+EMAIL_HOST_USER = ''
+EMAIL_HOST_PASSWORD = ''
 
 
 #S3 BUCKETS CONFIG
 
-AWS_ACCESS_KEY_ID = 'AKIA24TXOD6CNNDSLW77'
-AWS_SECRET_ACCESS_KEY = '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'
-AWS_STORAGE_BUCKET_NAME = 'mukulghezta-crm1-bucket'
+# AWS_ACCESS_KEY_ID = 'AKIA24TXOD6CNNDSLW77'
+# AWS_SECRET_ACCESS_KEY = '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'
+# AWS_STORAGE_BUCKET_NAME = 'mukulghezta-crm1-bucket'
 
-AWS_S3_FILE_OVERWRITE = False
-AWS_DEFAULT_ACL = None
-DEFAULT_FILE_STORAGE = 'storages.backends.s3boto3.S3Boto3Storage'
-STATICFILES_STORAGE = 'storages.backends.s3boto3.S3Boto3Storage'
+# AWS_S3_FILE_OVERWRITE = False
+# AWS_DEFAULT_ACL = None
+# DEFAULT_FILE_STORAGE = 'storages.backends.s3boto3.S3Boto3Storage'
+# STATICFILES_STORAGE = 'storages.backends.s3boto3.S3Boto3Storage'
 
 
 

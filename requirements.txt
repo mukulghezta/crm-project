@@ -99,7 +99,6 @@ pyparsing==2.4.7
 PyPDF2==1.26.0
 PyQt5==5.13.0
 PyQt5-sip==12.7.0
-pyqt5-tools==5.13.0.1.5
 PyQt5Designer==5.13.2
 pyrsistent==0.17.3
 python-bidi==0.4.2
@@ -138,6 +137,7 @@ virtualenvwrapper-win==1.2.6
 wcwidth==0.2.5
 webencodings==0.5.1
 Werkzeug==0.16.0
+whitenoise==5.2.0
 widgetsnbextension==3.5.1
 xhtml2pdf==0.2.5
 yagmail==0.14.245
